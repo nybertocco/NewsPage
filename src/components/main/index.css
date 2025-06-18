@@ -1,0 +1,141 @@
+@media (max-width: 500px) {
+  .news-container {
+    padding: 2rem;
+  }
+
+  .news-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgb(15, 15, 15);
+  }
+
+  .news-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .news-card {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .news-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  .news-card a {
+    font-size: 1rem;
+    color: rgb(0, 67, 202);
+    text-decoration: none;
+  }
+}
+
+
+@media (min-width: 501px) and (max-width: 1279px) {
+  .news-container {
+    padding: 2rem;
+  }
+
+  .news-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  .news-card {
+    flex: 1 1 calc(50% - 1.2rem);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background: #fff;
+  }
+
+  .news-card h2 {
+    font-size: 1.5rem;
+    color: rgb(15, 15, 15);
+  }
+
+  .news-card p {
+    font-size: 1.1rem;
+    color: rgb(113, 113, 113);
+  }
+
+  .news-card a {
+    font-size: 1rem;
+    color: rgb(0, 67, 202);
+  }
+}
+
+
+
+@media (min-width: 1280px) {
+.news-container {
+  padding: 20px;
+}
+
+.news-title {
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgb(15, 15, 15);
+}
+
+.news-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+.news-card {
+  flex: 1 1 calc(50% - 16px);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-card:hover {
+    transform: scale(1.01);
+}
+
+.news-card h2 {
+    font-size: 1.8rem;
+    color: rgb(15, 15, 15);
+}
+
+.news-card p {
+    font-size: 1.3rem;
+    color: rgb(113, 113, 113);
+}
+
+.news-card a {
+    font-size: 1.2rem;
+}
+
+}
