@@ -9,7 +9,7 @@
   }
 
   .logo {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     font-style: italic;
     color: rgb(0, 67, 202);
@@ -19,7 +19,7 @@
     width: 100%;
     padding: 0.8rem 1rem;
     border-radius: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 
   .btn-search {
@@ -29,6 +29,7 @@
     background-color: rgb(0, 67, 202);
     color: white;
     border: none;
+    font-size: 1.4rem;
   }
 
   .login {
@@ -38,6 +39,7 @@
     background-color: transparent;
     border: 1px solid #787878;
     color: rgb(78, 78, 78);
+    font-size: 1.3rem;
   }
 
   .modal-back {
@@ -67,14 +69,14 @@
   }
 
   .modal input {
-    font-size: 1rem;
-    padding: 0.6rem;
+    font-size: 1.6rem;
+    padding: 0.8rem;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
 
   .modal h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -89,7 +91,7 @@
     width: 10rem;
     height: 3rem;
     margin: 0 auto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border: 1px solid #787878;
     border-radius: 1rem;
     color: rgb(78, 78, 78);
@@ -131,11 +133,11 @@
     width: 60%;
     padding: 0.8rem 1rem;
     border-radius: 1.5rem 0 0 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .btn-search {
-    height: 3.8rem;
+    height: 4.4rem;
     position: relative;
     right: 1rem;
     padding: 0 1rem;
@@ -152,6 +154,7 @@
     background-color: transparent;
     border: 1px solid #787878;
     color: rgb(78, 78, 78);
+    font-size: 1.4rem;
   }
 
   .modal-back {
@@ -180,7 +183,7 @@
   }
 
   .modal h3 {
-        font-size: 1.8rem;
+        font-size: 2rem;
         text-align: center;
   }
 
@@ -191,8 +194,8 @@
   }
 
     .modal input {
-        padding: 0.8rem;
-        font-size: 1.2rem;
+        padding: 1rem;
+        font-size: 1.6rem;
         border-radius: 5px;
         border: 1px solid #ccc;
   }
@@ -201,7 +204,7 @@
   .modal .submit {
     width: 50%;
     height: 3rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border-radius: 1rem;
     border: 1px solid #787878;
     color: rgb(78, 78, 78);
